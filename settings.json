@@ -1,0 +1,26 @@
+{
+    "public":{
+        "chainName": "Sentinel testnet",
+        "chainId": "Sentinel-testnet-1.1",
+        "gtm": "GTM-54321A",
+        "slashingWindow": 10000,
+        "uptimeWindow": 750
+    },
+    "remote":{
+        "rpc":"http://tm-lcd.sentinelgroup.io:26657",
+        "lcd":"https://tm-testnet.sentinelgroup.io:1317"
+    },
+    "bin":{
+        "gaiacli": "$GOPATH/bin/gaiacli",
+        "gaiadebug": "$GOPATH/bin/gaiadebug"
+    },
+    "params":{
+        "startHeight": 914499,
+        "defaultBlockTime": 5000,
+        "blockInterval": 15000,
+        "consensusInterval": 1000,
+        "statusInterval":7500,
+        "signingInfoInterval": 1800000,
+        "proposalInterval": 5000
+    }
+}
