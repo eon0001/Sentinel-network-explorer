@@ -34,7 +34,7 @@ export default class Header extends React.Component {
   render() {
     return (
         <Navbar color="primary" dark expand="md" fixed="top">
-          <NavbarBrand tag={Link} to="/">The Big Dipper <Badge color="secondary">beta</Badge></NavbarBrand>
+          <NavbarBrand tag={Link} to="/">Sentinel Network Exporer<Badge color="secondary">alpha</Badge></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

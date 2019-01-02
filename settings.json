@@ -1,6 +1,6 @@
 {
     "public":{
-        "chainName": "Sentinel testnet",
+        "chainName": "Sentinel Network",
         "chainId": "Sentinel-testnet-1.1",
         "gtm": "GTM-54321A",
         "slashingWindow": 10000,
@@ -15,7 +15,7 @@
         "gaiadebug": "$GOPATH/bin/gaiadebug"
     },
     "params":{
-        "startHeight": 914499,
+        "startHeight": 931670,
         "defaultBlockTime": 5000,
         "blockInterval": 15000,
         "consensusInterval": 1000,
