@@ -203,7 +203,7 @@ Meteor.methods({
 
                         analyticsData.averageBlockTime = blockTime;
                         analyticsData.timeDiff = timeDiff;
-
+                        console.log(analyticsData.averageBlockTime);
                         analyticsData.time = blockData.time;
 
                         // initialize validator data at first block
